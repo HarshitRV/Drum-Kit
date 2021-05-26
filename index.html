@@ -3,25 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <title>Drum Kit</title>
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- GOOGLE FONTS -->
     <link
       href="https://fonts.googleapis.com/css?family=Arvo"
       rel="stylesheet"
     />
+
+    <!-- TITLE ICON -->
     <link rel="icon" href="images/favicon1.ico">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   </head>
 
   <body>
-    <h1 id="title">Drum 🥁 Kit</h1>
-    <h3>Use mouse or keyboard to play</h3>
+    <h1 id="title" class="animate__animated animate__lightSpeedInRight">Drum 🥁 Kit</h1>
+    <h3 class="animate__animated animate__lightSpeedInLeft">Use mouse or keyboard to play</h3>
     <div class="set">
-      <button class="w drum">w</button>
-      <button class="a drum">a</button>
-      <button class="s drum">s</button>
-      <button class="d drum">d</button>
-      <button class="j drum">j</button>
-      <button class="k drum">k</button>
-      <button class="l drum">l</button>
+      <button class="w drum animate__animated animate__fadeInLeft">w</button>
+      <button class="a drum animate__animated animate__bounceInDown">a</button>
+      <button class="s drum animate__animated animate__flipInX">s</button>
+      <button class="d drum animate__animated animate__rotateIn">d</button>
+      <button class="j drum animate__animated animate__flipInX">j</button>
+      <button class="k drum animate__animated animate__bounceInDown">k</button>
+      <button class="l drum animate__animated animate__fadeInRight">l</button>
     </div>
 
     <footer>Express Yourself.</footer>

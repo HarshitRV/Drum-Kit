@@ -87,3 +87,9 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+
+button:hover{
+  width: 165px; 
+  height: 165px;
+}
